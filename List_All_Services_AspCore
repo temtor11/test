@@ -1,3 +1,4 @@
+Взято с (https://ardalis.com/how-to-list-all-services-available-to-an-asp-net-core-app/)
 Простой вариант выведет в консоле:
  _logger.LogDebug($"Total Services Registered: {services.Count}");
     foreach(var service in services)
@@ -12,6 +13,7 @@
         ===================================================
     
     Более красивый вариант, доступен по ссылке /allservices
+    (https://ardalis.com/static/919fa015a0a594b4b08855f324093a1f/ea964/startup-services-middleware.png)
     
     
    using Microsoft.AspNetCore.Builder; using Microsoft.AspNetCore.Hosting;
